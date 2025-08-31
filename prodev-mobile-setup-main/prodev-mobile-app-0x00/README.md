@@ -1,3 +1,25 @@
+# What Happens When The Project Reset(npm run reset-project)
+
+- It first of all prompts to know if i want to move existing files to /app-example instead of deleting them? which i then select the yes option.
+- 📁 /app-example directory created.
+- /app moved to /app-example/app.
+- /components moved to /app-example/components.
+- /hooks moved to /app-example/hooks.
+- /constants moved to /app-example/constants.
+- /scripts moved to /app-example/scripts.
+- 📁 New /app directory created.
+- 📄 app/index.tsx created.
+- 📄 app/_layout.tsx created.
+
+### Project Reset Complete
+
+✅ Project reset complete. Next steps:
+1. Run `npx expo start` to start a development server.
+2. Edit app/index.tsx to edit the main screen.
+3. Delete the /app-example directory when you're done referencing it.
+
+
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
