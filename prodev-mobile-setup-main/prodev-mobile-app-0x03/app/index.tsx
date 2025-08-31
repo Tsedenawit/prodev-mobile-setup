@@ -1,7 +1,7 @@
-import { styles } from "@/styles";
-import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import { Text, TextInput, View, TouchableOpacity, Image } from "react-native";
+import { styles } from "@/styles";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
+import { FontAwesome, Ionicons } from "@expo/vector-icons";
 
 export default function Index() {
   return (
@@ -9,7 +9,7 @@ export default function Index() {
       <SafeAreaView style={styles.container}>
         <View style={styles.navGroup}>
           <Ionicons name="arrow-back" size={25} />
-          <Image source={require('@/assets/images/logo.png')} />
+          <Image source={require("@/assets/images/logo.png")} />
         </View>
         <Text style={styles.largeText}>Sign in to your</Text>
         <Text style={styles.largeText}>Account</Text>
@@ -37,17 +37,9 @@ export default function Index() {
         </TouchableOpacity>
 
         <View style={styles.dividerGroup}>
-          <View
-            style={styles.divider}
-          ></View>
-          <Text
-            style={styles.dividerText}
-          >
-            OR
-          </Text>
-          <View
-            style={styles.divider}
-          ></View>
+          <View style={styles.divider}></View>
+          <Text style={styles.dividerText}>OR</Text>
+          <View style={styles.divider}></View>
         </View>
 
         <View style={styles.socialMediaButtonGroup}>
@@ -83,7 +75,7 @@ export default function Index() {
         </View>
 
         <View style={styles.subTextGroup}>
-          <Text style={styles.subText}>Don't have an account?</Text>
+          <Text style={styles.subText}> Don&apos;t have an account?</Text>
           <Text style={styles.subTextJoin}>Join now</Text>
         </View>
       </SafeAreaView>

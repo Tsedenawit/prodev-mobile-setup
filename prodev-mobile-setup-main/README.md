@@ -1,4 +1,5 @@
 ## Steps to Install Expo Go
+By Olusegun Banji aka Vik2ry
 
 1. Visit the official [Expo Go homepage](https://expo.dev/go).
 2. Select the latest SDK version.
